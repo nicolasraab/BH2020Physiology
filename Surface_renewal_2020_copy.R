@@ -84,7 +84,7 @@ for(i in 1:length(unique_Code)){
     List_var[[i]] <- bind_cols(data.frame(unique_Code[i]), data.frame(matrix_var))
     }
 
-hola <- do.call(bind_rows,List_var)
+example <- do.call(bind_rows,List_var)
 
 #####################################################################
 
